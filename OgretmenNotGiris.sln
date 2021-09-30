@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgretmenNotGiris", "OgretmenNotGiris\OgretmenNotGiris.csproj", "{6EC00A9C-BE70-4B44-AF3E-2F2410F2BEE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EC00A9C-BE70-4B44-AF3E-2F2410F2BEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC00A9C-BE70-4B44-AF3E-2F2410F2BEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC00A9C-BE70-4B44-AF3E-2F2410F2BEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC00A9C-BE70-4B44-AF3E-2F2410F2BEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {435E6CF7-ED40-4CF3-B4B5-A69D183561D4}
+	EndGlobalSection
+EndGlobal
