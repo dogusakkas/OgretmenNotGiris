@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ogretmen.master.cs" Inherits="OgretmenNotGiris.MasterPage.Ogretmen" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ogrenci.master.cs" Inherits="OgretmenNotGiris.MasterPage.Ogrenci" %>
 
 <!DOCTYPE html>
 <html>
@@ -15,7 +15,8 @@
     <!-- Bootstrap CSS CDN -->
     <link href="../Dosyalar/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Our Custom CSS -->
-    <link href="../Dosyalar/sidebar/style4.css" rel="stylesheet" />
+    <%--<link href="../Dosyalar/sidebar/style4.css" rel="stylesheet" />--%>
+    <link href="../Dosyalar/StyleSheet3.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -25,37 +26,23 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Selçuk Üniversitesi</h3>
+                <h3>Selçuk Üniversitesi 
+                    Öğrenci Paneli
+                </h3>
                 <strong>SÜ</strong>
             </div>
 
             <ul class="list-unstyled components">
+                
+
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <img src="../Dosyalar/Resimler/graduated.png" />
-                        Öğrenciler
-                    </a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li><a href="../Pages/Ogretmen.aspx">
-                            <img src="../Dosyalar/Resimler/list.png" />
-                            Öğrenci Listesi</a></li>
-                        <li><a href="../Pages/OgrenciEkle.aspx">
-                            <img src="../Dosyalar/Resimler/add.png" />
-                            Öğrenci Ekle</a></li>
-                        <li><a href="OgrenciBul.aspx">
-                            <img src="../Dosyalar/Resimler/student.png" />
-                            Öğrenci Bul</a></li>
-
-                    </ul>
-                </li>
-                <li>
                     <a href="../Pages/DersListesi.aspx">
-                        <img src="../Dosyalar/Resimler/book.png" />
-                        Dersler
+                        <img src="../Dosyalar/Resimler/profile.png" />
+                        Profilim
                     </a>
+                    </li>
 
-
-                     <li class="active">
+                     <li>
                     <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false">
                         <img src="../Dosyalar/Resimler/email.png" />
                         Mesajlar
@@ -79,44 +66,18 @@
                         </ul>--%>
                 </li>
                 <li>
+                    <a href="../Pages/DuyuruListesi.aspx">
+                        <img src="../Dosyalar/Resimler/megaphone.png" />
+                        Duyurular
+                    </a>
+                </li>
+                <li>
                     <a href="../Pages/NotListesi.aspx">
                         <img src="../Dosyalar/Resimler/student%20(1).png" />
                         Notlar
                     </a>
                 </li>
-                <li class="active">
-                    <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false">
-                        <img src="../Dosyalar/Resimler/megaphone.png" />
-                        Duyurular
-                    </a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu2">
-                        <li><a href="../Pages/DuyuruListesi.aspx">
-                            <img src="../Dosyalar/Resimler/shout.png" />
-                            Duyuru Listesi</a></li>
-                        <li><a href="../Pages/DuyuruEkle.aspx">
-                            <img src="../Dosyalar/Resimler/announcement.png" />
-                            Duyuru Ekle</a></li>
-
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="../Dosyalar/Resimler/gallery.png" />
-                        Galeri
-                    </a>
-                </li>
-                <li>
-                    <a href="../Pages/Grafik.aspx">
-                        <img src="../Dosyalar/Resimler/pie-chart.png" />
-                        Grafikler
-                    </a>
-                </li>
-                <li>
-                    <a href="../Pages/Istatistikler.aspx">
-                        <img src="../Dosyalar/Resimler/statistics.png" />
-                        İstatistikler
-                    </a>
-                </li>
+                
                 <li>
                     <a href="#">
                         <img src="../Dosyalar/Resimler/settings.png" />
@@ -124,6 +85,8 @@
                     </a>
                 </li>
             </ul>
+
+            
 
 
         </nav>
