@@ -19,6 +19,7 @@
                   <td><%# Eval("DersAdi") %></td>
                   <td>
                       <asp:HyperLink ID="HyperLink1" NavigateUrl='<%# "DersSil.aspx?DersID="+ Eval("DersID") %>' runat="server" CssClass="btn btn-danger">Sil</asp:HyperLink>
+                      <asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "DersGuncelle.aspx?DersID="+ Eval("DersID") %>' runat="server" CssClass="btn btn-primary">Güncelle</asp:HyperLink>
                   </td>
               </tr>
 

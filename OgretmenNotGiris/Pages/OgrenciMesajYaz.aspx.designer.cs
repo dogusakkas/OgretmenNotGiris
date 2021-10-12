@@ -11,7 +11,7 @@ namespace OgretmenNotGiris.Pages
 {
 
 
-    public partial class Ogrenci
+    public partial class OgrenciMesajYaz
     {
 
         /// <summary>
@@ -24,66 +24,48 @@ namespace OgretmenNotGiris.Pages
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
 
         /// <summary>
-        /// TxtNumara control.
+        /// Txt_Gonderen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtNumara;
+        protected global::System.Web.UI.WebControls.TextBox Txt_Gonderen;
 
         /// <summary>
-        /// TxtAdSoyad control.
+        /// Txt_Alici control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtAdSoyad;
+        protected global::System.Web.UI.WebControls.TextBox Txt_Alici;
 
         /// <summary>
-        /// TxtMail control.
+        /// Txt_Baslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtMail;
+        protected global::System.Web.UI.WebControls.TextBox Txt_Baslik;
 
         /// <summary>
-        /// TxtTelefon control.
+        /// Txt_Icerik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTelefon;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea Txt_Icerik;
 
         /// <summary>
-        /// TxtSifre control.
+        /// Btn_Gonder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtSifre;
-
-        /// <summary>
-        /// TxtFotograf control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtFotograf;
-
-        /// <summary>
-        /// Btn_Olustur control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_Olustur;
+        protected global::System.Web.UI.WebControls.Button Btn_Gonder;
     }
 }

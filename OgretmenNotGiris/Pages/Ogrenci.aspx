@@ -18,7 +18,7 @@
             <br />
             <div>
                 <asp:Label for="TxtMail" runat="server" Text="Mail"></asp:Label>
-                <asp:TextBox ID="TxtMail" runat="server" CssClass="form-control" Enabled="false"></asp:TextBox>
+                <asp:TextBox ID="TxtMail" runat="server" CssClass="form-control" Enabled="false" ></asp:TextBox>
             </div>
             <br />
             <div>
@@ -28,7 +28,7 @@
             <br />
             <div>
                 <asp:Label for="TxtSifre" runat="server" Text="Şifre"></asp:Label>
-                <asp:TextBox ID="TxtSifre" runat="server" CssClass="form-control" Enabled="false"></asp:TextBox>
+                <asp:TextBox ID="TxtSifre" runat="server" CssClass="form-control" ></asp:TextBox>
             </div>
             <br />
             <div>
@@ -36,11 +36,10 @@
                 <asp:TextBox ID="TxtFotograf" runat="server" CssClass="form-control" Enabled="false"></asp:TextBox>
             </div>
             <br />
-           
-           
-
 
             </div>
+
+            <asp:Button ID="Btn_Olustur" runat="server" Text="Güncelle" CssClass="btn btn-info" OnClick="Btn_Olustur_Click"  />
 
 
     </form>

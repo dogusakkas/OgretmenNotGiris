@@ -354,6 +354,7 @@
     <Content Include="Dosyalar\StyleSheet2.css" />
     <Content Include="Dosyalar\StyleSheet3.css" />
     <Content Include="Pages\DersEkle.aspx" />
+    <Content Include="Pages\DersGuncelle.aspx" />
     <Content Include="Pages\DersListesi.aspx" />
     <Content Include="Pages\DersSil.aspx" />
     <Content Include="Pages\DuyuruEkle.aspx" />
@@ -372,7 +373,11 @@
     <Content Include="Pages\NotSil.aspx" />
     <Content Include="Pages\Ogrenci.aspx" />
     <Content Include="Pages\OgrenciEkle.aspx" />
+    <Content Include="Pages\OgrenciGelenMesajlar.aspx" />
+    <Content Include="Pages\OgrenciGidenMesajlar.aspx" />
     <Content Include="Pages\OgrenciGuncelle.aspx" />
+    <Content Include="Pages\OgrenciMesajYaz.aspx" />
+    <Content Include="Pages\OgrenciNotu.aspx" />
     <Content Include="Pages\OgrenciSil.aspx" />
     <Content Include="Pages\Ogretmen.aspx" />
     <Content Include="Web.config" />
@@ -403,6 +408,13 @@
     </Compile>
     <Compile Include="Pages\DersEkle.aspx.designer.cs">
       <DependentUpon>DersEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DersGuncelle.aspx.cs">
+      <DependentUpon>DersGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DersGuncelle.aspx.designer.cs">
+      <DependentUpon>DersGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\DersListesi.aspx.cs">
       <DependentUpon>DersListesi.aspx</DependentUpon>
@@ -530,12 +542,40 @@
     <Compile Include="Pages\OgrenciEkle.aspx.designer.cs">
       <DependentUpon>OgrenciEkle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\OgrenciGelenMesajlar.aspx.cs">
+      <DependentUpon>OgrenciGelenMesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OgrenciGelenMesajlar.aspx.designer.cs">
+      <DependentUpon>OgrenciGelenMesajlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OgrenciGidenMesajlar.aspx.cs">
+      <DependentUpon>OgrenciGidenMesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OgrenciGidenMesajlar.aspx.designer.cs">
+      <DependentUpon>OgrenciGidenMesajlar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\OgrenciGuncelle.aspx.cs">
       <DependentUpon>OgrenciGuncelle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\OgrenciGuncelle.aspx.designer.cs">
       <DependentUpon>OgrenciGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OgrenciMesajYaz.aspx.cs">
+      <DependentUpon>OgrenciMesajYaz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OgrenciMesajYaz.aspx.designer.cs">
+      <DependentUpon>OgrenciMesajYaz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OgrenciNotu.aspx.cs">
+      <DependentUpon>OgrenciNotu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OgrenciNotu.aspx.designer.cs">
+      <DependentUpon>OgrenciNotu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\OgrenciSil.aspx.cs">
       <DependentUpon>OgrenciSil.aspx</DependentUpon>

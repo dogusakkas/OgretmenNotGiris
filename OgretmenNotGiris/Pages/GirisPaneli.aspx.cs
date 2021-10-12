@@ -25,7 +25,8 @@ namespace OgretmenNotGiris.Pages
             SqlDataReader dr = komut.ExecuteReader();
             if (dr.Read())
             {
-                Response.Redirect("Ogretmen.aspx");
+                Session.Add("OgrenciNumara", TxtNumara.Text);
+                Response.Redirect("Ogrenci.aspx");
             }
             else
             {

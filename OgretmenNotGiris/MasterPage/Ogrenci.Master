@@ -33,38 +33,33 @@
             </div>
 
             <ul class="list-unstyled components">
-                
+
 
                 <li class="active">
-                    <a href="../Pages/DersListesi.aspx">
+                    <a href="../Pages/Ogrenci.aspx">
                         <img src="../Dosyalar/Resimler/profile.png" />
                         Profilim
                     </a>
-                    </li>
+                </li>
 
-                     <li>
+                <li>
                     <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false">
                         <img src="../Dosyalar/Resimler/email.png" />
                         Mesajlar
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu3">
-                        <li><a href="../Pages/GelenMesajlar.aspx">
+                        <li><a href="../Pages/OgrenciGelenMesajlar.aspx">
                             <img src="../Dosyalar/Resimler/shout.png" />
                             Gelen Mesajlar</a></li>
-                        <li><a href="../Pages/GidenMesajlar.aspx">
+                        <li><a href="../Pages/OgrenciGidenMesajlar.aspx">
                             <img src="../Dosyalar/Resimler/announcement.png" />
                             Giden Mesajlar</a></li>
-                        <li><a href="../Pages/MesajYaz.aspx">
+                        <li><a href="../Pages/OgrenciMesajYaz.aspx">
                             <img src="../Dosyalar/Resimler/announcement.png" />
                             Mesaj Yaz</a></li>
-
                     </ul>
-                    <%--<ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li><a href="#">Page 1</a></li>
-                            <li><a href="#">Page 2</a></li>
-                            <li><a href="#">Page 3</a></li>
-                        </ul>--%>
                 </li>
+
                 <li>
                     <a href="../Pages/DuyuruListesi.aspx">
                         <img src="../Dosyalar/Resimler/megaphone.png" />
@@ -72,12 +67,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="../Pages/NotListesi.aspx">
+                    <a href="../Pages/OgrenciNotu.aspx">
                         <img src="../Dosyalar/Resimler/student%20(1).png" />
                         Notlar
                     </a>
                 </li>
-                
+
                 <li>
                     <a href="#">
                         <img src="../Dosyalar/Resimler/settings.png" />
@@ -86,7 +81,7 @@
                 </li>
             </ul>
 
-            
+
 
 
         </nav>
@@ -130,7 +125,7 @@
     <!-- jQuery CDN -->
     <script src="../Dosyalar/jquery-1.12.0.min.js"></script>
     <!-- Bootstrap Js CDN -->
-     <script src="../Dosyalar/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="../Dosyalar/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
